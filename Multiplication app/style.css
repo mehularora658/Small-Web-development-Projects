@@ -1,0 +1,63 @@
+/*Styling body to put all content in center of page*/
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+/*Styling form*/
+.form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+/*Styling score*/
+.score {
+    color: blue;
+    font-family: cursive;
+    text-align: right;
+}
+
+/*Styling question*/
+h1 {
+    font-family: cursive;
+}
+
+/*Styling input feild*/
+.input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+
+/*Styling Submit button*/
+.submit {
+    background-color: brown;
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    cursor: pointer;
+    font-family: cursive;
+
+}
+
+/* To increase button brightness on hover */
+button:hover {
+    filter: brightness(0.9);
+}

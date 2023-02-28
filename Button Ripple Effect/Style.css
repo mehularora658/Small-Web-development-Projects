@@ -25,15 +25,15 @@ body{
     width:0;
     height:0;
     background-color: blue;
-    left:50%;
-    top:50%;
+    left:var(--posx);
+    top:var(--posy);
     transform:translate(-50%,-50%);
     border-radius:50%;
     transition: 0.5s;
 }
 .btn:hover::before{
-    width:200px;
-    height: 200px;
+    width:500px;
+    height: 500px;
 }
 .btn span{
     position: relative;
